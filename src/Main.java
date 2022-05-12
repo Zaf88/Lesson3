@@ -24,19 +24,18 @@ public class Main {
             }
             System.out.println("Install the light version of the Android app from the link");
 
-            if (clientDeviceYear >= 2015 && clientOS == 1) ;
+            if (clientDeviceYear >= 2015 && clientOS == 1);
                         {
             }
         }
         System.out.println("Install the Android app from the link");
 
         int year = 2020;
-        if (year % 4 == 0 || year % 100 == 0 || year % 400 == 0) ;
+            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
 
-        System.out.println("The year is leap Year");
-         int Year = 2022;
-        if (year % 4!= 0 && year % 100 != 0 && year % 400 != 0);
-    System.out.println("The year is not Leap Year");}}
+        System.out.println("The year is leap Year");}}
+
+
 
 
 
