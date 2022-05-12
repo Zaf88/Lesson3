@@ -11,31 +11,29 @@ public class Main {
             System.out.println("Follow the link to install Android app");
 
             int clientDeviceYear = 2015;
-            if (clientDeviceYear < 2015 && clientOS == 1.0 || clientOS == 0) ;
-            {
-            }
+            if (clientDeviceYear < 2015 && clientOS == 1.0 || clientOS == 0);
             System.out.println("Install the light version of the IOS app from the link");
+
             if (clientDeviceYear >= 2015 && clientOS == 1.0 || clientOS == 0) ;
-                        {
-            }
+
             System.out.println("Install the IOS app from the link");
             if (clientDeviceYear < 2015 && clientOS == 1);
-            {
-            }
             System.out.println("Install the light version of the Android app from the link");
 
             if (clientDeviceYear >= 2015 && clientOS == 1);
-                        {
-            }
-        }
         System.out.println("Install the Android app from the link");
 
         int year = 2020;
-            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
+            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);}
 
-        System.out.println("The year is leap Year");}}
+        System.out.println("The year is leap Year");
 
+     int deliveryDistance = 95;
+     if (deliveryDistance <= 20);
+     System.out.println("DeliveryTime == 1 day");
 
+     if (deliveryDistance == 20 || deliveryDistance == 60);
+     System.out.println("DeliveryTime == 1 day + 24 hours");
 
-
-
+    if (deliveryDistance == 60 || deliveryDistance == 100);
+    System.out.println("DeliveryTime == 1 day + 48 hours");}}
