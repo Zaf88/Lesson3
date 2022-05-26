@@ -32,14 +32,14 @@ public class Main {
                 System.out.println( i+"The year is Not leap Year" );}
 
         int deliveryDistance = 60;
-        if (deliveryDistance <=20){
+        if (deliveryDistance <=20) {
             System.out.println("DeliveryTime  1 day");}
 
-        if (deliveryDistance >= 20 || deliveryDistance == 60) {
+        if (deliveryDistance <= 20) {
         System.out.println("DeliveryTime  1 day +24 hours");}
 
 
-            else if (deliveryDistance >= 60 || deliveryDistance == 100) {
+            else if (deliveryDistance <= 60) {
                 System.out.println("DeliveryTime  1 day +  48 hours");}
 
 
